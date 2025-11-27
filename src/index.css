@@ -14,4 +14,14 @@ body {
 
 * {
   box-sizing: border-box;
+  --slider-progress-color: #7A38E0;
+  --slider-progress-hover-color: #7A38E0;
+  --slider-thumb-color: #7A38E0;
+  --slider-thumb-hover-color: #7A38E0;
+  --slider-thumb-active-color: #7A38E0;
+}
+
+
+[class^="slider__component_"] {
+  width: calc(100% - var(--slider-input-progress-margin-horizontal) * 2) !important;
 }
