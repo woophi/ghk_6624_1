@@ -133,7 +133,7 @@ export const App = () => {
       <>
         <div className={appSt.container}>
           <Typography.TitleResponsive style={{ marginTop: '1rem' }} tag="h1" view="medium" font="system" weight="bold">
-            Гарантированный доход
+            Надежный доход
           </Typography.TitleResponsive>
           <Typography.Text view="primary-medium">
             Ваши деньги приносят доход. Условия и ставка не меняется весь срок
